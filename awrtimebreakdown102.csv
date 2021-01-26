@@ -1,0 +1,231 @@
+SnapID;DataHora;Evento;Tempo(s)
+26210;20201027-00:00;CPU;134
+26210;20201027-00:00;db file sequential read;4
+26210;20201027-00:00;oracle thread bootstrap;3
+26210;20201027-00:00;db file parallel write;1
+26210;20201027-00:00;log file parallel write;1
+26210;20201027-00:00;control file parallel write;1
+26210;20201027-00:00;control file sequential read;1
+26210;20201027-00:00;os thread creation;0
+26210;20201027-00:00;db file scattered read;0
+26210;20201027-00:00;enq: CR - block range reuse ckpt;0
+26211;20201027-01:00;CPU;194
+26211;20201027-01:00;oracle thread bootstrap;3
+26211;20201027-01:00;control file parallel write;1
+26211;20201027-01:00;control file sequential read;1
+26211;20201027-01:00;db file parallel write;0
+26211;20201027-01:00;log file parallel write;0
+26211;20201027-01:00;os thread creation;0
+26211;20201027-01:00;Disk file operations I/O;0
+26211;20201027-01:00;db file sequential read;0
+26211;20201027-01:00;latch free;0
+26212;20201027-02:00;CPU;136
+26212;20201027-02:00;oracle thread bootstrap;3
+26212;20201027-02:00;control file parallel write;1
+26212;20201027-02:00;control file sequential read;1
+26212;20201027-02:00;db file parallel write;0
+26212;20201027-02:00;db file sequential read;0
+26212;20201027-02:00;log file parallel write;0
+26212;20201027-02:00;os thread creation;0
+26212;20201027-02:00;Disk file operations I/O;0
+26212;20201027-02:00;ASM file metadata operation;0
+26213;20201027-03:00;CPU;3
+26213;20201027-03:00;oracle thread bootstrap;3
+26213;20201027-03:00;control file parallel write;1
+26213;20201027-03:00;control file sequential read;1
+26213;20201027-03:00;db file parallel write;0
+26213;20201027-03:00;log file parallel write;0
+26213;20201027-03:00;db file sequential read;0
+26213;20201027-03:00;os thread creation;0
+26213;20201027-03:00;Disk file operations I/O;0
+26213;20201027-03:00;ASM file metadata operation;0
+26214;20201027-04:00;CPU;194
+26214;20201027-04:00;oracle thread bootstrap;3
+26214;20201027-04:00;control file sequential read;1
+26214;20201027-04:00;control file parallel write;1
+26214;20201027-04:00;db file parallel write;0
+26214;20201027-04:00;log file parallel write;0
+26214;20201027-04:00;os thread creation;0
+26214;20201027-04:00;Disk file operations I/O;0
+26214;20201027-04:00;db file sequential read;0
+26214;20201027-04:00;ASM file metadata operation;0
+26215;20201027-05:00;CPU;131
+26215;20201027-05:00;oracle thread bootstrap;3
+26215;20201027-05:00;control file sequential read;1
+26215;20201027-05:00;control file parallel write;1
+26215;20201027-05:00;db file parallel write;0
+26215;20201027-05:00;log file parallel write;0
+26215;20201027-05:00;os thread creation;0
+26215;20201027-05:00;Disk file operations I/O;0
+26215;20201027-05:00;db file sequential read;0
+26215;20201027-05:00;ASM file metadata operation;0
+26216;20201027-06:00;CPU;131
+26216;20201027-06:00;oracle thread bootstrap;3
+26216;20201027-06:00;control file sequential read;1
+26216;20201027-06:00;control file parallel write;1
+26216;20201027-06:00;db file parallel write;0
+26216;20201027-06:00;log file parallel write;0
+26216;20201027-06:00;os thread creation;0
+26216;20201027-06:00;Disk file operations I/O;0
+26216;20201027-06:00;ASM file metadata operation;0
+26216;20201027-06:00;latch free;0
+26217;20201027-07:00;CPU;195
+26217;20201027-07:00;oracle thread bootstrap;3
+26217;20201027-07:00;control file sequential read;1
+26217;20201027-07:00;control file parallel write;1
+26217;20201027-07:00;db file parallel write;0
+26217;20201027-07:00;log file parallel write;0
+26217;20201027-07:00;os thread creation;0
+26217;20201027-07:00;Disk file operations I/O;0
+26217;20201027-07:00;db file sequential read;0
+26217;20201027-07:00;ASM file metadata operation;0
+26218;20201027-08:00;CPU;132
+26218;20201027-08:00;oracle thread bootstrap;3
+26218;20201027-08:00;control file sequential read;1
+26218;20201027-08:00;control file parallel write;1
+26218;20201027-08:00;db file parallel write;0
+26218;20201027-08:00;log file parallel write;0
+26218;20201027-08:00;Disk file operations I/O;0
+26218;20201027-08:00;os thread creation;0
+26218;20201027-08:00;ASM file metadata operation;0
+26218;20201027-08:00;latch free;0
+26219;20201027-09:00;CPU;130
+26219;20201027-09:00;oracle thread bootstrap;3
+26219;20201027-09:00;control file sequential read;1
+26219;20201027-09:00;control file parallel write;1
+26219;20201027-09:00;db file parallel write;0
+26219;20201027-09:00;log file parallel write;0
+26219;20201027-09:00;os thread creation;0
+26219;20201027-09:00;Disk file operations I/O;0
+26219;20201027-09:00;db file sequential read;0
+26219;20201027-09:00;ASM file metadata operation;0
+26220;20201027-10:00;CPU;194
+26220;20201027-10:00;oracle thread bootstrap;3
+26220;20201027-10:00;control file sequential read;1
+26220;20201027-10:00;db file parallel write;1
+26220;20201027-10:00;control file parallel write;1
+26220;20201027-10:00;db file sequential read;1
+26220;20201027-10:00;log file parallel write;0
+26220;20201027-10:00;os thread creation;0
+26220;20201027-10:00;Disk file operations I/O;0
+26220;20201027-10:00;ASM file metadata operation;0
+26221;20201027-11:00;CPU;129
+26221;20201027-11:00;oracle thread bootstrap;3
+26221;20201027-11:00;control file sequential read;1
+26221;20201027-11:00;control file parallel write;1
+26221;20201027-11:00;db file parallel write;0
+26221;20201027-11:00;log file parallel write;0
+26221;20201027-11:00;os thread creation;0
+26221;20201027-11:00;Disk file operations I/O;0
+26221;20201027-11:00;db file sequential read;0
+26221;20201027-11:00;ASM file metadata operation;0
+26222;20201027-12:00;CPU;131
+26222;20201027-12:00;oracle thread bootstrap;3
+26222;20201027-12:00;control file sequential read;1
+26222;20201027-12:00;control file parallel write;1
+26222;20201027-12:00;db file parallel write;0
+26222;20201027-12:00;log file parallel write;0
+26222;20201027-12:00;os thread creation;0
+26222;20201027-12:00;Disk file operations I/O;0
+26222;20201027-12:00;ASM file metadata operation;0
+26222;20201027-12:00;db file sequential read;0
+26223;20201027-13:00;CPU;130
+26223;20201027-13:00;oracle thread bootstrap;3
+26223;20201027-13:00;control file sequential read;1
+26223;20201027-13:00;control file parallel write;1
+26223;20201027-13:00;db file parallel write;0
+26223;20201027-13:00;log file parallel write;0
+26223;20201027-13:00;os thread creation;0
+26223;20201027-13:00;Disk file operations I/O;0
+26223;20201027-13:00;db file sequential read;0
+26223;20201027-13:00;ASM file metadata operation;0
+26224;20201027-14:00;CPU;131
+26224;20201027-14:00;oracle thread bootstrap;3
+26224;20201027-14:00;control file sequential read;1
+26224;20201027-14:00;control file parallel write;1
+26224;20201027-14:00;db file parallel write;0
+26224;20201027-14:00;log file parallel write;0
+26224;20201027-14:00;os thread creation;0
+26224;20201027-14:00;Disk file operations I/O;0
+26224;20201027-14:00;db file sequential read;0
+26224;20201027-14:00;ASM file metadata operation;0
+26225;20201027-15:00;CPU;194
+26225;20201027-15:00;oracle thread bootstrap;3
+26225;20201027-15:00;control file sequential read;1
+26225;20201027-15:00;control file parallel write;1
+26225;20201027-15:00;db file parallel write;0
+26225;20201027-15:00;log file parallel write;0
+26225;20201027-15:00;os thread creation;0
+26225;20201027-15:00;Disk file operations I/O;0
+26225;20201027-15:00;JS kgl get object wait;0
+26225;20201027-15:00;ASM file metadata operation;0
+26226;20201027-16:00;CPU;131
+26226;20201027-16:00;oracle thread bootstrap;3
+26226;20201027-16:00;control file sequential read;1
+26226;20201027-16:00;control file parallel write;1
+26226;20201027-16:00;db file parallel write;1
+26226;20201027-16:00;log file parallel write;0
+26226;20201027-16:00;os thread creation;0
+26226;20201027-16:00;Disk file operations I/O;0
+26226;20201027-16:00;db file sequential read;0
+26226;20201027-16:00;ASM file metadata operation;0
+26227;20201027-17:00;CPU;192
+26227;20201027-17:00;oracle thread bootstrap;3
+26227;20201027-17:00;control file sequential read;1
+26227;20201027-17:00;control file parallel write;1
+26227;20201027-17:00;db file sequential read;0
+26227;20201027-17:00;db file parallel write;0
+26227;20201027-17:00;log file parallel write;0
+26227;20201027-17:00;os thread creation;0
+26227;20201027-17:00;Disk file operations I/O;0
+26227;20201027-17:00;ASM file metadata operation;0
+26228;20201027-18:00;CPU;193
+26228;20201027-18:00;oracle thread bootstrap;3
+26228;20201027-18:00;control file sequential read;1
+26228;20201027-18:00;control file parallel write;1
+26228;20201027-18:00;db file parallel write;0
+26228;20201027-18:00;log file parallel write;0
+26228;20201027-18:00;os thread creation;0
+26228;20201027-18:00;enq: PR - contention;0
+26228;20201027-18:00;Disk file operations I/O;0
+26228;20201027-18:00;latch free;0
+26229;20201027-19:00;CPU;129
+26229;20201027-19:00;oracle thread bootstrap;3
+26229;20201027-19:00;control file sequential read;1
+26229;20201027-19:00;control file parallel write;1
+26229;20201027-19:00;db file parallel write;0
+26229;20201027-19:00;log file parallel write;0
+26229;20201027-19:00;os thread creation;0
+26229;20201027-19:00;Disk file operations I/O;0
+26229;20201027-19:00;db file sequential read;0
+26229;20201027-19:00;ASM file metadata operation;0
+26230;20201027-20:00;CPU;163
+26230;20201027-20:00;SQL*Net more data from client;10
+26230;20201027-20:00;db file scattered read;9
+26230;20201027-20:00;db file sequential read;5
+26230;20201027-20:00;oracle thread bootstrap;3
+26230;20201027-20:00;control file sequential read;1
+26230;20201027-20:00;control file parallel write;1
+26230;20201027-20:00;log file parallel write;1
+26230;20201027-20:00;db file parallel write;1
+26230;20201027-20:00;log file sync;0
+26231;20201027-21:00;CPU;210
+26231;20201027-21:00;db file scattered read;7
+26231;20201027-21:00;db file sequential read;7
+26231;20201027-21:00;direct path write temp;5
+26231;20201027-21:00;oracle thread bootstrap;3
+26231;20201027-21:00;log file parallel write;2
+26231;20201027-21:00;control file sequential read;1
+26231;20201027-21:00;control file parallel write;1
+26231;20201027-21:00;direct path read temp;1
+26231;20201027-21:00;db file parallel write;0
+26232;20201027-22:00;CPU;371
+26232;20201027-22:00;direct path write temp;37
+26232;20201027-22:00;db file sequential read;8
+26232;20201027-22:00;db file scattered read;7
+26232;20201027-22:00;oracle thread bootstrap;3
+26232;20201027-22:00;db file parallel write;3
+26232;20201027-22:00;log file parallel write;2
+26232;20201027-22:00;direct path read temp;2
+26232;20201027-22:00;control file parallel write;1
+26232;20201027-22:00;control file sequential read;1

@@ -3,15 +3,14 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 import os
 
-arquivo = input('Caminho: ')
-excel = (arquivo)
-df = pd.read_excel(excel)
-coluna = input('Qual coluna será a coluna? ')
-linha = input('Qual coluna será a linha? ')
-valor = input('Qual coluna será valores? ')
-
-evento_group = df.groupby([linha, coluna]).mean()
-print(evento_group[valor])
-
-
+csv = input ('Qual o caminho? ')
+caminho = os.path.splitext(csv)[0]
+df1 = pd.read_csv(csv)
+separar = df1["SnapID;DataHora;Evento;Tempo(s)"].str.split(';')
+dados = separar.to_list()
+colunas = ['SnapID', 'DataHora', 'Evento', 'Tempo(s)']
+df2 = pd.DataFrame(dados, columns = colunas)
+evento_group = df2.groupby(['DataHora', 'Evento']).sum('Tempo(s)')
+sort = evento_group.sort_values (by = 'Tempo(s)', ascending = False)
+excel = sort.to_excel(caminho + '.xlsx')
 

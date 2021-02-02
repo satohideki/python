@@ -11,6 +11,5 @@ dados = separar.to_list()
 colunas = ['SnapID', 'DataHora', 'Evento', 'Tempo(s)']
 df2 = pd.DataFrame(dados, columns = colunas)
 evento_group = df2.groupby(['DataHora', 'Evento']).sum('Tempo(s)')
-sort = evento_group.sort_values (by = 'Tempo(s)', ascending = False)
-excel = sort.to_excel(caminho + '.xlsx')
+excel = evento_group.to_excel(caminho + '.xlsx')
 
